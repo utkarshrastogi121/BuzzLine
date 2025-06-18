@@ -110,7 +110,7 @@ export async function toggleLike(postId: string) {
         },
       });
     } else {
-      // like and create notification (only if liking someone else's post)
+      // like and create notification
       await prisma.$transaction([
         prisma.like.create({
           data: {
@@ -206,7 +206,7 @@ export async function deletePost(postId: string) {
       where: { id: postId },
     });
 
-    revalidatePath("/"); // purge the cache
+    revalidatePath("/");
     return { success: true };
   } catch (error) {
     console.error("Failed to delete post:", error);
