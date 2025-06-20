@@ -32,16 +32,16 @@
    cd BuzzLine
     ```
 2. Install dependencies:
-  ```bash
-  npm install
-  ```
+   ```bash
+   npm install
+    ```
 3. Set up your .env:
   ```txt
   NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY = ""
   CLERK_SECRET_KEY = ""
   DATABASE_URL = ""
   UPLOADTHING_TOKEN = ""
-```
+   ```
 4. Run database migrations:
   ```bash
   npx prisma migrate dev --name init
@@ -50,7 +50,3 @@
    ```bash
    npm run dev
   ```
-
-
-
-  
