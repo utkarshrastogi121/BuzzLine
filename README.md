@@ -6,8 +6,7 @@
 
 ## 🛠 Features
 
-- Real‑time messaging powered by WebSockets or similar
-- User sign‑up/login and authentication
+- User sign‑up/login and authentication using Clerk
 - Prisms your data! (type‑safe ORM with Prisma + Postgres)
 - Profile pages & dynamic routing
 - Tailwind CSS – ultra‑responsive styling
