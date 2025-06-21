@@ -11,7 +11,6 @@
 - Profile pages & dynamic routing
 - Tailwind CSS – ultra‑responsive styling
 - Deployed on Vercel — blazing fast & serverless
-- CI/CD ready via GitHub Actions
 
 ---
 
